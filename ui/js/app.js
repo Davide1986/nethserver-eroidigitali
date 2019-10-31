@@ -71,8 +71,8 @@ $(document).on("language-loaded", function () {
 
     // event
     parent.ns.$children[0].notifications.event.show = true
-    parent.ns.$children[0].notifications.event.name = "Your event name"
-    parent.ns.$children[0].notifications.event.message = "Your action-name"
+    parent.ns.$children[0].notifications.event.name = "Nethserver Eroi Digitali"
+    parent.ns.$children[0].notifications.event.message = "NethServer Eroi Digitali"
     parent.ns.$children[0].notifications.event.progress = 50
     /* */
 
