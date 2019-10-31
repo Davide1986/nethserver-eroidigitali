@@ -5,4 +5,4 @@
 # download langs from transifex
 
 # tar directory
-cd ui; tar cvzf ../nethserver-cockpit-empty.tar.gz *
+cd ui; tar cvzf ../nethserver-eroidigitali.tar.gz *

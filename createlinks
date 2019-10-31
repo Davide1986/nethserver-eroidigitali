@@ -23,21 +23,21 @@ use esmith::Build::CreateLinks  qw(:all);
 
 
 #
-# nethserver-cockpit-empty-update event
+# nethserver-eroidigitali-update event
 #
 
 # UNCOMMENT TO USE THE actions, templates or services
 # actions to execute
-#event_actions('nethserver-cockpit-empty-update', qw(
-#      initialize-default-databases   00
+#event_actions('nethserver-eroidigitali-update', qw(
+# initialize-default-databases 00
 #));
 
 # templates to expand
-#event_templates('nethserver-cockpit-empty-update', qw(
-#    /etc/os-release
+#event_templates('nethserver-eroidigitali-update', qw(
+# /etc/os-release
 #));
 
 # services to restart
-#event_services('nethserver-cockpit-empty-update', qw(
-#    cockpit-empty restart
+#event_services('nethserver-eroidigitali-update', qw(
+# cockpit-empty restart
 #));

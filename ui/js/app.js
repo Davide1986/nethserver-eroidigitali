@@ -80,7 +80,7 @@ $(document).on("language-loaded", function () {
     // read
     function read(callback) {
         nethserver.exec(
-            ["nethserver-cockpit-empty/read"],
+            ["nethserver-eroidigitali/read"],
             null,
             null,
             function (success) {
@@ -101,7 +101,7 @@ $(document).on("language-loaded", function () {
     // validate
     function validate(obj, callback) {
         nethserver.exec(
-            ["nethserver-cockpit-empty/validate"],
+            ["nethserver-eroidigitali/validate"],
             obj,
             null,
             function (success) {
@@ -122,10 +122,10 @@ $(document).on("language-loaded", function () {
     // update
     function update(obj, callback) {
         nethserver.exec(
-            ["nethserver-cockpit-empty/update"],
+            ["nethserver-eroidigitali/update"],
             obj,
             function (stream) {
-                console.info("nethserver-cockpit-empty", stream);
+                console.info("nethserver-eroidigitali", stream);
             },
             function (success) {
                 callback(success);
@@ -139,7 +139,7 @@ $(document).on("language-loaded", function () {
     // exec command and get raw output
     function execCmd(obj, stream, callback) {
         nethserver.execRaw(
-            ["nethserver-cockpit-empty/execute"],
+            ["nethserver-eroidigitali/execute"],
             obj,
             function (output) {
                 // this is the raw output from command
