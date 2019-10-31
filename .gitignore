@@ -1,0 +1,5 @@
+*.log
+*.rpm
+node_modules/
+dist/
+docs/site
