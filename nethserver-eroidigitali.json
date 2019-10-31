@@ -1,15 +1,15 @@
 {
     "id": "nethserver-eroidigitali",
     "name": "NethServer Eroi Digitali",
-    "summary": "Short description of NethServer Eroi Digitali",
-    "description": "Very very very very very long description of NethServer Eroi Digitali",
+    "summary": "NethServer Eroi Digitali",
+    "description": "NethServer Eroi Digitali collegati alla community velocemente ",
     "url": "nethserver-eroidigitali",
     "homepage": "https://github.com/Davide1986/nethserver-eroidigitali",
     "provides": ["nethserver-eroidigitali"],
     "release": {
         "version": "1.0.0"
     },
-    "tags": ["tag1", "tag2", "tag3"],
+    "tags": ["EroiDigitali", "Forum", "Chat"],
     "license": "GPL-3.0",
     "bugs": {
  "url": "https://github.com/NethServer/dev/issues"
@@ -19,5 +19,5 @@
         "url": "https://github.com/Davide1986/nethserver-eroidigitali",
         "email": "davide.derubeis@alpacasrl.it"
     },
-    "icon": "icon.png"
+    "icon": "logo.png"
 }
