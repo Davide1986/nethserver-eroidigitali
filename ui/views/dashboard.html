@@ -1,2 +1,52 @@
-<h1 i18n="dashboard"></h1>
-<div><h3>Data collection</h3><form class="form-horizontal"><!----><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label"></label><div class="col-sm-5"><button class="btn btn-primary">Collect now</button><!----><!----><!----></div></div></form><h3>Host configuration</h3><form class="form-horizontal"><!----><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label">Public host</label><div class="col-sm-5"><input class="form-control"><!----></div></div><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label">Final url</label><div class="col-sm-5"><input disabled="disabled" class="form-control"></div><div class="col-sm-2"><a href="https://mail.ethicalhacker.ovh/9ccf3de7901f867a1a628104ba424c380140c518/#/?theme=light&amp;palette=palette1&amp;last=week&amp;lang=en" target="_blank" class="btn btn-primary">Open</a></div></div></form><h3>Report configuration</h3><form class="form-horizontal"><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label">Theme</label><div class="col-sm-5"><select class="form-control"><option value="light">Light</option><option value="dark">Dark</option></select><!----></div></div><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label">Palette</label><div class="col-sm-5"><select class="form-control"><option value="palette1">Palette 1</option><option value="palette2">Palette 2</option><option value="palette3">Palette 3</option><option value="palette4">Palette 4</option><option value="palette5">Palette 5</option><option value="palette6">Palette 6</option><option value="palette7">Palette 7</option><option value="palette8">Palette 8</option><option value="palette9">Palette 9</option></select><!----></div></div><div class="form-group"><label class="col-sm-2 control-label"></label><div class="col-sm-5"><span class="palette" style="background: rgb(0, 143, 251);">#008FFB</span><span class="palette" style="background: rgb(0, 227, 150);">#00E396</span><span class="palette" style="background: rgb(254, 176, 25);">#FEB019</span><span class="palette" style="background: rgb(255, 69, 96);">#FF4560</span><span class="palette" style="background: rgb(119, 93, 208);">#775DD0</span></div></div><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label">Interval</label><div class="col-sm-5"><select class="form-control"><option value="week">Week</option><option value="month">Month</option><option value="halfyear">Six-Months</option></select><!----></div></div><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label">Language</label><div class="col-sm-5"><select class="form-control"><option value="en">en</option><option value="it">it</option></select><!----></div></div><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label">Anonymization</label><div class="col-sm-5"><input type="checkbox" class="form-control"><!----></div></div><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label">Max Entries</label><div class="col-sm-5"><input type="number" class="form-control"><!----></div></div><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label">Addresses</label><div class="col-sm-1"><button type="button" class="btn btn-default"><span class="fa fa-plus"></span></button></div></div><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label"><!----></label><div class="col-sm-5"><button type="submit" class="btn btn-primary">Save</button></div></div></form><h3>Test mail</h3><form class="form-horizontal"><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label">Address</label><div class="col-sm-5"><input type="email" class="form-control"></div></div><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label">Include configured addresses</label><div class="col-sm-5"><input type="checkbox" class="form-control"></div></div><div class="form-group"><label for="textInput-modal-markup" class="col-sm-2 control-label">Send mail</label><div class="col-sm-2"><button type="submit" class="btn btn-primary">Send</button><!----><!----><!----></div></div></form></div>
+<h1 i18n="menu_dashboard">Dashboard</h1>
+
+<div id="loader" class="spinner spinner-lg"></div>
+
+<div id="empty" class="blank-slate-pf">
+  <div class="blank-slate-pf-icon">
+    <span class="pficon fa fa-cogs"></span>
+  </div>
+  <h1 i18n="dashboard_empty_title">
+    Ejabberd is disabled
+  </h1>
+  <div class="blank-slate-pf-main-action">
+    <button class="btn btn-primary btn-lg" i18n="dashboard_empty_action_btn" id="btn_configure">Configure Ejabberd</button>
+  </div>
+</div>
+
+<div id="content">
+    <div class="stats-container card-pf-utilization-details">
+        <span class="card-pf-utilization-card-details-count" id="stats-uptime">0</span>
+        <span class="card-pf-utilization-card-details-description">
+            <span class="card-pf-utilization-card-details-line-2 stats-text" i18n="dashboard_stats_uptime">Uptime seconds</span>
+        </span>
+    </div>
+    
+    <h2 i18n="dashboard_users_header">Users status</h2>
+    <div class="stats-container card-pf-utilization-details">
+        <span class="card-pf-utilization-card-details-count" id="stats-registered">0</span>
+        <span class="card-pf-utilization-card-details-description">
+            <span class="card-pf-utilization-card-details-line-2 stats-text" i18n="dashboard_stats_registered">Registered</span>
+        </span>
+    </div>
+    <div class="stats-container card-pf-utilization-details">
+        <span class="card-pf-utilization-card-details-count" id="stats-online">0</span>
+        <span class="card-pf-utilization-card-details-description">
+            <span class="card-pf-utilization-card-details-line-2 stats-text" i18n="dashboard_stats_online">Online</span>
+        </span>
+    </div>
+    
+    <h2 i18n="dashboard_s2s_header">Federated servers connections</h2>
+    <div class="stats-container card-pf-utilization-details">
+        <span class="card-pf-utilization-card-details-count" id="stats-s2sin">0</span>
+        <span class="card-pf-utilization-card-details-description">
+            <span class="card-pf-utilization-card-details-line-2 stats-text" i18n="dashboard_stats_s2sin">Incoming</span>
+        </span>
+    </div>
+    <div class="stats-container card-pf-utilization-details">
+        <span class="card-pf-utilization-card-details-count" id="stats-s2sout">0</span>
+        <span class="card-pf-utilization-card-details-description">
+            <span class="card-pf-utilization-card-details-line-2 stats-text" i18n="dashboard_stats_s2sout">Outgoing</span>
+        </span>
+    </div>
+</div>
