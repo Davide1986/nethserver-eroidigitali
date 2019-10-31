@@ -4,7 +4,7 @@
     "summary": "Short description of NethServer Eroi Digitali",
     "description": "Very very very very very long description of NethServer Eroi Digitali",
     "url": "nethserver-eroidigitali",
-    "homepage": "https://github.com/NethServer/nethserver-eroidigitali",
+    "homepage": "https://github.com/Davide1986/nethserver-eroidigitali",
     "provides": ["nethserver-eroidigitali"],
     "release": {
         "version": "1.0.0"
@@ -15,9 +15,9 @@
  "url": "https://github.com/NethServer/dev/issues"
     },
     "author": {
-        "name": "Author's name of NethServer Eroi Digitali",
-        "url": "https://github.com/NethServer/nethserver-eroidigitali",
-        "email": "Author's email of NethServer Eroi Digitali"
+        "name": "Davide De Rubeis",
+        "url": "https://github.com/Davide1986/nethserver-eroidigitali",
+        "email": "davide.derubeis@alpacasrl.it"
     },
     "icon": "icon.png"
 }

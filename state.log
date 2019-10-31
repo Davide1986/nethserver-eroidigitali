@@ -1,0 +1,26 @@
+2019-10-31 12:36:57,120 - Mock Version: 1.4.20
+2019-10-31 12:37:01,596 - Start: yum update
+2019-10-31 12:37:22,811 - Finish: yum update
+2019-10-31 12:37:22,835 - Finish: chroot init
+2019-10-31 12:37:22,845 - Start: buildsrpm
+2019-10-31 12:37:22,946 - Start: rpmbuild -bs
+2019-10-31 12:37:25,818 - Finish: rpmbuild -bs
+2019-10-31 12:37:25,823 - Finish: buildsrpm
+2019-10-31 12:37:25,828 - Start: clean chroot
+2019-10-31 12:37:32,774 - Finish: clean chroot
+2019-10-31 12:37:32,776 - Finish: run
+2019-10-31 12:39:42,048 - Mock Version: 1.4.20
+2019-10-31 12:39:43,746 - Start: yum update
+2019-10-31 12:40:05,315 - Finish: yum update
+2019-10-31 12:40:05,337 - Finish: chroot init
+2019-10-31 12:40:05,342 - Start: build phase for nethserver-eroidigitali-0.0.0-1.ns7.src.rpm
+2019-10-31 12:40:05,345 - Start: build setup for nethserver-eroidigitali-0.0.0-1.ns7.src.rpm
+2019-10-31 12:40:11,731 - Finish: build setup for nethserver-eroidigitali-0.0.0-1.ns7.src.rpm
+2019-10-31 12:40:11,732 - Start: rpmbuild nethserver-eroidigitali-0.0.0-1.ns7.src.rpm
+2019-10-31 12:40:11,735 - Start: Outputting list of installed packages
+2019-10-31 12:40:12,132 - Finish: Outputting list of installed packages
+2019-10-31 12:40:12,986 - Finish: rpmbuild nethserver-eroidigitali-0.0.0-1.ns7.src.rpm
+2019-10-31 12:40:12,986 - Finish: build phase for nethserver-eroidigitali-0.0.0-1.ns7.src.rpm
+2019-10-31 12:40:12,992 - Start: clean chroot
+2019-10-31 12:40:21,369 - Finish: clean chroot
+2019-10-31 12:40:21,371 - Finish: run
